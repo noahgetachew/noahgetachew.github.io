@@ -1,20 +1,19 @@
-// Replace the sample copy below with your own portfolio information.
 const records = [
   {
     title: "About me",
     color: "#b7c2ac",
     subtitle: "The introduction",
-    lead: "Hi, I’m Noah. This is my little corner of the internet — a collection of things I make, things I learn, and ideas I’m still figuring out.",
+    lead: "I’m Noah Getachew, a Computer Engineering student interested in building software, embedded systems, and practical tools.",
     entries: [
       [
-        "The person behind the records",
-        "Use this space to introduce yourself: what you study, what you care about, and the kind of work you want to put into the world.",
-        ["Your major", "Your city"]
+        "Computer Engineering student",
+        "I am pursuing a Bachelor of Science in Computer Engineering at Kennesaw State University, with an expected graduation date of May 2029.",
+        ["Kennesaw State University", "Computer Engineering", "May 2029"]
       ],
       [
-        "Outside the studio",
-        "A few interests that make you, you. Add your favorite music, hobbies, creative pursuits, or whatever you could talk about for hours.",
-        ["Music", "Making things", "Curiosity"]
+        "Recognition",
+        "Recipient of the President's Volunteer Service Award (Gold) in May 2024.",
+        ["Award", "May 2024"]
       ]
     ]
   },
@@ -22,22 +21,22 @@ const records = [
     title: "Projects",
     color: "#d45f40",
     subtitle: "Selected works",
-    lead: "Experiments, late nights, and ideas brought to life. A few highlights from the collection.",
+    lead: "Software, embedded systems, and data-driven tools built through personal and startup projects.",
     entries: [
       [
-        "Project 01 — Your standout build",
-        "Introduce your favorite project. What problem did it solve, what did you build, and what was the most interesting part of making it?",
-        ["Technology", "Your role", "Year"]
+        "Archive Watch",
+        "Built an account-based web app that searches Mercari Japan and Yahoo Auctions for archive fashion listings. Developed keyword tracking so users can save searches and find new listings, with links to proxy services such as Buyee.",
+        ["Web app", "Search", "September 2026 — Present"]
       ],
       [
-        "Project 02 — A creative experiment",
-        "Show something unexpected. Explain the idea, how you approached it, and what you learned along the way.",
-        ["Design", "Development"]
+        "Paradox",
+        "Designed a customizable wearable accessory using a Waveshare ESP32 1.43-inch AMOLED display. Wrote and optimized C++ code for performance, display rendering, animations, and interaction design in the Arduino IDE.",
+        ["C++", "ESP32", "December 2024 — Present"]
       ],
       [
-        "Project 03 — A work in progress",
-        "Share a project you’re excited about right now. Describe where it’s headed and what you’re exploring.",
-        ["In progress", "Experiment"]
+        "KETSU Modules",
+        "Developed custom JavaScript modules that scrape information from more than six anime and comic book websites, transform the extracted content, and integrate it into the KETSU application with asynchronous JavaScript.",
+        ["JavaScript", "Web scraping", "March — December 2024"]
       ]
     ]
   },
@@ -45,22 +44,22 @@ const records = [
     title: "Experience",
     color: "#e6c659",
     subtitle: "The liner notes",
-    lead: "The places, people, and challenges that shape how I work.",
+    lead: "Research and work experience shaped by engineering, experimentation, and dependable execution.",
     entries: [
       [
-        "Your role · Organization",
-        "Month Year — Present. Describe your responsibilities and one specific contribution you’re proud of.",
-        ["Work", "Collaboration"]
+        "Research Assistant · Kennesaw State University",
+        "September 2025 — January 2026. Implemented and tested a neural network-based KalmanNet algorithm, improving State of Charge estimation accuracy by approximately 20% under noisy and varying conditions. Simulated battery and electrical system models using MATLAB/Simulink and designed an embedded battery management system prototype with a microcontroller, rechargeable battery, and LCD display.",
+        ["Research", "MATLAB/Simulink", "Embedded systems"]
       ],
       [
-        "Research or leadership role",
-        "Month Year — Month Year. Add research, an internship, a club, or a volunteer experience. Focus on what you contributed.",
-        ["Research", "Leadership"]
+        "Team Member · Walmart",
+        "February 2025 — May 2025. Delivered customer service while handling more than 90 transactions per shift, assisted with 4–6 self-checkout registers during peak hours, and helped stage more than 200 carts per shift.",
+        ["Customer service", "Operations", "February — May 2025"]
       ],
       [
-        "Your degree · University",
-        "Expected graduation year. Highlight your field of study, relevant coursework, or academic interests.",
-        ["Education"]
+        "Bachelor of Science in Computer Engineering · Kennesaw State University",
+        "Marietta, Georgia. Expected May 2029.",
+        ["Education", "Computer Engineering", "May 2029"]
       ]
     ]
   },
@@ -68,22 +67,22 @@ const records = [
     title: "Skills",
     color: "#49748a",
     subtitle: "Tools of the trade",
-    lead: "A growing toolkit for turning an idea into something real. Replace these sample categories with your strengths.",
+    lead: "Languages and tools used across software, embedded systems, and engineering projects.",
     entries: [
       [
         "Code & build",
-        "Add the languages and technologies you use most, along with how you use them.",
-        ["Your language", "Your framework", "Your platform"]
+        "Programming languages used across web applications, scraping modules, embedded projects, and engineering research.",
+        ["JavaScript", "Java", "C++", "Python"]
       ],
       [
-        "Design & explore",
-        "Describe your approach to prototypes, visual design, or creative problem solving.",
-        ["Prototyping", "Design tools"]
+        "Web & data",
+        "Experience building web applications, asynchronous JavaScript modules, and scraping tools.",
+        ["HTML", "SQL", "Web scraping"]
       ],
       [
-        "Work with people",
-        "Add a short example of how you collaborate, communicate, or lead a project.",
-        ["Teamwork", "Communication"]
+        "Engineering tools",
+        "Tools and platforms used for embedded development, battery modeling, and rapid prototyping.",
+        ["ESP32", "Arduino IDE", "MATLAB/Simulink"]
       ]
     ]
   },
@@ -91,17 +90,17 @@ const records = [
     title: "Contact",
     color: "#ddd6c3",
     subtitle: "Let’s make something",
-    lead: "A good collaboration starts with a conversation. This is the place to put your contact details when you’re ready.",
+    lead: "A good collaboration starts with a conversation.",
     entries: [
       [
         "Email",
-        "Add your preferred email address here.",
-        ["Email coming soon"]
+        "Reach me at noahg5120@gmail.com.",
+        ["noahg5120@gmail.com"]
       ],
       [
         "Find me elsewhere",
-        "Add your GitHub, LinkedIn, or other profiles to help people explore more of your work.",
-        ["GitHub coming soon", "LinkedIn coming soon"]
+        "",
+        []
       ]
     ]
   }
@@ -308,7 +307,7 @@ function openModal() {
     </div>
 
     <div class="demo-note">
-      DEMO EDITION / Sample content — ready for your own story.
+      NOAH / ON RECORD
     </div>
   `;
 
